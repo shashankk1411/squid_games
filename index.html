@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head >
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon (1).ico">
+  <title> Squid Game Landing page website</title>
+</head>
+
+<body>
+  <section class="banner">
+    <header>
+      <div class="toggle">
+
+      </div>
+      <a href="#" class="logo"> <img src="logo.png" alt=""></a>
+    </header>
+    <div class="content">
+        <img src="text.png" class="textimg">
+        <p> Hundreds of cash-strapped players accept a strange invatation to compete in children's game.
+            Inside, a tempting prize awaits-with deadly high stakes. </p>
+            <a href="#" class="btn"><ion-icon name="play-circle-outline"></ion-icon>Watch Trailer</a>
+    </div>
+    <div class="clip">
+        <div class="clipbox">
+            <img src="img1.jpg">
+            <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+        <div class="clipbox">
+            <img src="img2.jpg">
+            <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+    </div>
+    <ul class="socialicon">
+        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+
+    </ul>
+  </section>
+<ul class="navigation">
+    <li> <a href="#">Home</a></li>
+    <li> <a href="#">About</a></li>
+    <li> <a href="#">Cast</a></li>
+    <li> <a href="#">Shop</a></li>
+    <li> <a href="#">Contact</a></li>
+</ul>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script> 
+  let menutoggle = document.querySelector('.toggle');
+  let navitagion = document.querySelector('.navigation');
+  menutoggle.onclick = function(){
+      menutoggle.classList.toggle('active');
+      navitagion.classList.toggle('active');
+  } 
+</script>
+</body>
+
+</html>
